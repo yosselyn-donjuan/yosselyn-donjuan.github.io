@@ -8,7 +8,7 @@ body {
 nav {
     background-color: #3A5A40;
     padding: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     border-radius: 6px;
 }
 
@@ -17,10 +17,12 @@ nav a {
     margin-right: 15px;
     text-decoration: none;
     font-weight: bold;
+    padding: 6px 10px;
+    border-radius: 4px;
 }
 
 nav a:hover {
-    text-decoration: underline;
+    background-color: rgba(255, 255, 255, 0.15);
 }
 
 h1, h2 {
@@ -28,7 +30,7 @@ h1, h2 {
 }
 
 img {
-    margin: 10px;
+    margin: 15px 10px;
     border-radius: 8px;
     border: 3px solid #588157;
 }
@@ -38,6 +40,7 @@ form {
     background-color: #A3B18A;
     padding: 15px;
     border-radius: 8px;
+    margin-top: 20px;
 }
 
 input, select, textarea, button {
@@ -57,4 +60,28 @@ button {
 
 button:hover {
     background-color: #2D4633;
+}
+
+.page-container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.18);
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
 }
