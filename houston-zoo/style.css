@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Merriweather:wght@300;400;700&display=swap');
+
+body {
+    font-family: 'Merriweather', serif;
+    background-color: #f5f7f2;
+    color: #222;
+}
+
+h1, h2, h3, .navbar-brand {
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    background-color: #1b5e20;
+}
+
+.navbar .nav-link,
+.navbar .navbar-brand {
+    color: #e8f5e9 !important;
+}
+
+.navbar .nav-link.active {
+    color: #ffeb3b !important;
+}
+
+.hero-section {
+    padding: 3rem 0;
+}
+
+.hero-title {
+    color: #1b5e20;
+}
+
+.hero-subtitle {
+    color: #388e3c;
+}
+
+.btn-zoo {
+    background-color: #ffb300;
+    color: #1b5e20;
+    border-radius: 999px;
+    font-weight: 600;
+}
+
+.btn-zoo:hover {
+    background-color: #ffa000;
+    color: #1b5e20;
+}
+
+.badge-zoo {
+    background-color: #1b5e20;
+    color: #e8f5e9;
+    border-radius: 999px;
+    font-size: 0.75rem;
+}
+
+.highlight-box {
+    background-color: #e8f5e9;
+    border-left: 4px solid #1b5e20;
+    padding: 1rem 1.25rem;
+    border-radius: 0.75rem;
+}
+
+footer {
+    background-color: #102c12;
+    color: #c8e6c9;
+    font-size: 0.8rem;
+    padding: 1rem 0;
+}
+
+footer span {
+    display: block;
+}
+
+@media (min-width: 768px) {
+    footer span {
+        display: inline;
+    }
+}
